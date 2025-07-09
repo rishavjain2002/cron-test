@@ -12,5 +12,5 @@ if not os.path.exists(file_path):
     print(f"File '{file_path}' created and content written.")
 else:
     with open(file_path, "a") as f:
-        f.write("New Line")
+        f.write("New Line \n")
     print(f"File '{file_path}' already exists. No action taken.")
